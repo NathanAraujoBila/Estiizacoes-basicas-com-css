@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+}
+
+#exemplo-1 {
+    border-image-source: url('../CSS/imagens/borda.png');
+    border-image-slice: 169;
+    border-image-repeat: repeat;
+    border-image-width: 10px 20px 30px 40px;
+}
+
+#exemplo-2 {
+    border-image-source: linear-gradient(rgb(128, 31, 255),rgb(177, 242, 0));
+    border-image-slice: 10;
+}
